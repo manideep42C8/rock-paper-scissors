@@ -1,0 +1,57 @@
+body{
+  background-color: rgb(26, 26, 26);
+}
+p{
+  font-family:arial;
+  color:white;
+}
+.title{
+  font-size:30px;
+  font-weight: bold;
+}
+.rock-button,.paper-button,.scissors-button{
+  height:120px;
+  width:120px;
+  margin-right: 10px;
+  border-radius: 60px;
+  border:solid;
+  border-width: 3px;
+  border-color: white;
+  object-fit: cover;
+  background-color: transparent;
+  cursor: pointer;
+  
+}
+.rock-emoji,.paper-emoji,.scissors-emoji{
+  height: 50px;;
+  padding: 15px 10px;
+}
+.display{
+  font-size:30px;
+  font-weight: bold;
+  margin-top:40px;
+  margin-bottom: 0px;;
+}
+.both-moves-display,
+.score-display{
+  font-size:20px ;
+  margin-top: 25px;
+}
+
+.both-moves-icon{
+  height:40px
+}
+.reset-score-button{
+  padding:7px 12px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.conform-reset-display{
+  font-size: 17px;;
+}
+.yes-button,.no-button{
+  font-size: 19px;
+  padding:5px 10px;
+  cursor: pointer;
+
+}
